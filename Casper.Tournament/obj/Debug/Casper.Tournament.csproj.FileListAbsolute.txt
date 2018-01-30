@@ -1,0 +1,11 @@
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\obj\Debug\Casper.Tournament.csprojResolveAssemblyReference.cache
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\obj\Debug\Casper.Tournament.csproj.CoreCompileInputs.cache
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\Casper.Tournament.dll.config
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\Casper.Tournament.dll
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\Casper.Tournament.pdb
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\EntityFramework.dll
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\EntityFramework.xml
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\obj\Debug\Casper.Tournament.dll
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\obj\Debug\Casper.Tournament.pdb
