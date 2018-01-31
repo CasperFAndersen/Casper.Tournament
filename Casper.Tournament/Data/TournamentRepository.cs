@@ -8,13 +8,12 @@ using Casper.Tournament.Models;
 
 namespace Casper.Tournament.Data
 {
-    public class TournamentRepository : DbContext
+    public class TournamentRepository
     {
-        public DbSet<Models.Tournament> Tournaments { get; set; }
 
         public void InsertTournament(Models.Tournament tournament)
         {
-            using(var db = new TournamentRepository())
+            using(var db = new DatabaseContext())
             {
                 db.Tournaments.Add(tournament);
                 db.SaveChanges();
@@ -23,7 +22,7 @@ namespace Casper.Tournament.Data
 
         public IEnumerable<Models.Tournament> GetAllTournaments()
         {
-            using(var db = new TournamentRepository())
+            using(var db = new DatabaseContext())
             {
                 return db.Tournaments;
             }

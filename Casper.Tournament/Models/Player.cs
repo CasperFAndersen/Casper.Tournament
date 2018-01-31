@@ -11,9 +11,14 @@ namespace Casper.Tournament.Models
         public int ID { get; set; }
         public string Name { get; set; }
 
+        public Player()
+        {
+
+        }
         public Player(string name)
         {
             this.Name = Name;
         }
+        
     }
 }

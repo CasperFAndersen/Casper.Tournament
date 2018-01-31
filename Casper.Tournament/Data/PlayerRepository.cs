@@ -8,13 +8,11 @@ using System.Threading.Tasks;
 
 namespace Casper.Tournament.Data
 {
-    public class PlayerRepository : DbContext
+    public class PlayerRepository
     {
-        public DbSet<Player> Players { get; set; }
-
         public void InsertPlayer (Player player)
         {
-            using (var db = new PlayerRepository())
+            using (var db = new DatabaseContext())
             {
                 db.Players.Add(player);
                 db.SaveChanges();
@@ -23,9 +21,9 @@ namespace Casper.Tournament.Data
 
         public IEnumerable<Player> GetAllPlayersInDb()
         {
-            using(var db = new PlayerRepository())
+            using(var db = new DatabaseContext())
             {
-                return db.Players;
+                return db.Players.ToList();
             }
         }
     }

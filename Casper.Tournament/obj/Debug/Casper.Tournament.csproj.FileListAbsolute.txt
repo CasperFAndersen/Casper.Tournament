@@ -9,3 +9,6 @@ C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\En
 C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\obj\Debug\Casper.Tournament.dll
 C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\obj\Debug\Casper.Tournament.pdb
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\obj\Debug\Casper.Tournament.Migrations.mig1.resources
+C:\Users\frob1\Documents\GitHub\Casper.Tournament\Casper.Tournament\obj\Debug\Casper.Tournament.csproj.GenerateResource.Cache

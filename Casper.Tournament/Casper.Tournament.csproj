@@ -36,6 +36,7 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -47,21 +48,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\DatabaseContext.cs" />
     <Compile Include="Data\PlayerRepository.cs" />
     <Compile Include="Data\TeamRepository.cs" />
     <Compile Include="Data\TournamentRepository.cs" />
+    <Compile Include="Extensions\EntityExtensions.cs" />
+    <Compile Include="Migrations\201801310038511_mig1.cs" />
+    <Compile Include="Migrations\201801310038511_mig1.Designer.cs">
+      <DependentUpon>201801310038511_mig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\Tournament.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\ClearDB.cs" />
+    <Compile Include="Test\DataTests\PlayerRepositoryTest.cs" />
+    <Compile Include="Test\DataTests\TeamRepositoryTest.cs" />
+    <Compile Include="Test\DataTests\TournamentRepositoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Business\" />
-    <Folder Include="Test\DataTests\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201801310038511_mig1.resx">
+      <DependentUpon>201801310038511_mig1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
